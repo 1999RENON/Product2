@@ -1,0 +1,141 @@
+/* common */
+
+body {
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color:inherit;
+  transition: opacity .3s;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+/* header */
+
+header h1 {
+  /* outline: 2px solid blue; */
+  background: rgb(56, 56, 56);
+  font-size: 40px;
+  color: #fff;
+  margin-left: 30px;
+  padding: 5px 40px;
+  letter-spacing: 1px;
+}
+
+nav {
+  /* outline: 2px solid green; */
+  margin-right: 30px;
+}
+
+nav a {
+  /* outline: 2px solid yellow; */
+  font-size: 27px;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: -0.5px;
+}
+
+nav a + a {
+  margin-left: 15px;
+}
+
+header .container {
+  /* outline: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* hero */
+
+.hero img {
+  width: 100%;
+}
+
+/* section 1 */
+
+.about h1 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: 3px underline;
+  font-family:YuMincho;
+  color:rgb(59, 59, 59);
+}
+
+.about img {
+  width: 150px;
+  display:block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.about h2 {
+  font-size: 32px;
+  font-family:YuMincho;
+  color:rgb(59, 59, 59);
+  margin-left: 20px;
+}
+
+.about p {
+  font-family: YuMincho;
+  font-size: 26px;
+  color:rgb(164, 164, 164);
+  margin-left: 20px;
+}
+
+/* bicycle */
+
+.Bicycle {
+  justify-content: center;
+  /* outline: 2px solid red; */
+  margin-top: 200px;
+}
+
+.Bicycle h1 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: 3px underline;
+  font-family:YuMincho;
+  color:rgb(59, 59, 59);
+  margin-bottom: 70px;
+}
+
+.Bicycle img {
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+}
+
+.Bicycle h2 {
+  font-size: 32px;
+  font-family:YuMincho;
+  /* outline: 2px solid red; */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color:rgb(59, 59, 59);
+}
+
+.Bicycle p {
+  font-family: YuMincho;
+  font-size: 26px;
+  margin: 0 auto;
+  /* outline: 2px solid red; */
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 60px;
+  color:rgb(164, 164, 164);
+}
+
+/* footer */
+
+footer {
+  text-align:center;
+  color: rgb(197, 197, 197);
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
